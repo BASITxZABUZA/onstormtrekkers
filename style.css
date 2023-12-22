@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+  body {
+    overflow-x: hidden;
+    background-color: white;
+  }
+  a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+  
+  li {
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 2rem;
+  }
+  h1 {
+    font-size: 3.5rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  
+  h3 {
+    font-size: 3.5rem;
+  }
+  h4 {
+    font-size: 4rem;
+    text-transform: uppercase;
+  }
+  
+  h5 {
+    font-size: 2.3rem;
+  }
+  /* global styling ends here  */
+nav{
+  display: flex;
+ background-color:rgba(0, 0, 0, 1);   
+ min-height: 10vh;
+ min-width: 100vw;
+ justify-content: space-between;
+ align-items: center;
+}
+.logo{
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 70vw;
+    flex-shrink: 3;
+}
+nav ul li a{
+  color: #0e0b16;
+  font-family: 'Roboto Slab', serif;
+  font-size: 2rem;
+  flex: 1 1 20rem;
+  color: aliceblue;
+}
+
+
+.landing{
+  min-height: 90vh;
+  background-image:linear-gradient(rgba(0, 0, 0, 1), rgb(0, 0, 0, 0)),
+  url(/background-images/bg1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.landing h1{
+  font-family: 'Phudu', cursive;
+  color: rgb(0, 255, 255);
+  font-size: 6rem;
+  text-align: center;
+}
+.landing p{
+  font-family: 'Labrada', serif;
+  color: aliceblue;
+  font-size: 4rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+.landing button{
+  background-color: rgb(238, 255, 0);
+  padding: 1rem 4rem;
+  border: none;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  font-family: 'Dosis', sans-serif;
+  text-transform: uppercase;
+  word-spacing: 1px;
+  margin: 2rem 0;
+  cursor: pointer;
+}
+.aboutus{
+  min-height: 100vh;
+  min-width: 100vw;
+  background:linear-gradient(rgb(0, 0, 0,1), rgb(0, 0, 0, 0.3)),
+  url(/background-images/prateek-katyal-i4gPz_fJzTo-unsplash.jpg) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.aboutus h3{
+  color: rgb(185, 228, 255);
+  font-family: 'Dosis', sans-serif;
+  text-transform: uppercase;
+  text-decoration: underline;
+  word-spacing: 1rem;
+}
+.aboutus p{
+  color: aliceblue;
+  font-family: 'Labrada', serif;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  padding: 2rem 0;
+
+}
+.aboutus article{
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-decoration: line-through;
+  font-family: 'Roboto Slab', serif;
+  color: rgb(252, 221, 44);
+}
+.colors{
+  color: white;
+  padding: 2rem;
+}
+.aboutus ul{
+  display: flex;
+}
+.serve{
+  height: auto;
+  width: 100vw;
+  background:linear-gradient(rgb(0, 0, 0,0.8), rgb(0, 0, 0, 0.3)),
+  url(/background-images/rish-agarwal-aAzMHDFbhcA-unsplash.jpg) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:auto;
+}
+.services{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card{
+  height: 260px;
+  width: 260px;
+  background-color: rgba(255, 187, 0, 0.731);
+  margin: 2rem;
+  border-radius: 10px;
+  border: 3px solid white;
+}
+.serve h5{
+  padding: 6rem 0;
+  text-align: center;
+  font-size: 5rem;
+  color: rgb(232, 232, 232);
+  font-family: 'Dosis', sans-serif;
+}
+.services h6{
+  padding: 2rem;
+  color: #0e0b16;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+.services p{
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  text-transform: capitalize;
+  text-align: center;
+  padding: 0rem 3rem;
+  font-family: 'Roboto Slab', serif;
+}
+footer{
+  height: 80vh;
+  width: 100vw;
+  background-color: rgb(26, 28, 108);
+  display: flex;
+  flex-direction: column;
+}
+.upperfoot{
+  min-height: 10vh;
+  min-width: auto;
+}
+.upperfoot h6{
+  font-size: 3rem;
+  color: white;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  padding: 2rem;
+  text-align: center;
+  letter-spacing: 2rem;
+  text-decoration: line-through;
+}
+.middlefoot{
+  min-height: 70vh;
+  min-width: auto;
+  background-color: rgb(158, 54, 255);
+}
+form{
+  min-height: 40%;
+  min-width: 40%;
+  border-radius: 20px;
+  display: flex;
+  background-color: transparent;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 15%;
+  padding: 1rem;
+}
+#mail{
+  background-color: rgb(18, 18, 74);
+  margin: 2rem 0;
+  padding: 1rem 4rem;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius:10px;
+  border: none;
+}
+#msg{
+  background-color: rgb(18, 18, 74);
+  margin: 2rem 0;
+  padding: 1rem 4rem;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius:10px;
+  border: none;
+  color: white;
+  resize: none;
+}
+#submit{
+  background-color: rgb(18, 18, 74);
+  padding: 1rem 2.5rem;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  letter-spacing: .5rem;
+  text-transform: uppercase;
+}
+.lowerfoot h5{
+
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgb(235, 116, 73);
+  font-size: 2rem;
+  padding: 1.5rem;
+  letter-spacing: 3px;
+}
+.lowerfoot a{
+  text-decoration: none;
+  color: #fff;
+  text-transform: lowercase;
+}
+::placeholder{
+  color: white;
+}
+
+
