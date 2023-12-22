@@ -102,7 +102,7 @@ nav ul li a{
   text-align: center;
 }
 .landing button{
-  background-color: rgb(238, 255, 0);
+  background-color: orangered;
   padding: 1rem 4rem;
   border: none;
   border-top-left-radius: 15px;
